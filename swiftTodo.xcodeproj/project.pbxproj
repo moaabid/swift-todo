@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201618772823F0C100250C45 /* TodoFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201618762823F0C100250C45 /* TodoFormViewModel.swift */; };
+		201618792823F32C00250C45 /* TodoFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201618782823F32C00250C45 /* TodoFormView.swift */; };
+		2016187B2823F83900250C45 /* ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016187A2823F83900250C45 /* ModelType.swift */; };
 		203410AF2823C93900AC7477 /* swiftTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203410AE2823C93900AC7477 /* swiftTodoApp.swift */; };
 		203410B12823C93900AC7477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203410B02823C93900AC7477 /* ContentView.swift */; };
 		203410B32823C93A00AC7477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203410B22823C93A00AC7477 /* Assets.xcassets */; };
 		203410B62823C93A00AC7477 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203410B52823C93A00AC7477 /* Preview Assets.xcassets */; };
+		203410BD2823CB2900AC7477 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203410BC2823CB2900AC7477 /* TodoModel.swift */; };
+		203410BF2823CCC900AC7477 /* TodoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203410BE2823CCC900AC7477 /* TodoDataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		201618762823F0C100250C45 /* TodoFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFormViewModel.swift; sourceTree = "<group>"; };
+		201618782823F32C00250C45 /* TodoFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFormView.swift; sourceTree = "<group>"; };
+		2016187A2823F83900250C45 /* ModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelType.swift; sourceTree = "<group>"; };
 		203410AB2823C93900AC7477 /* swiftTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		203410AE2823C93900AC7477 /* swiftTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTodoApp.swift; sourceTree = "<group>"; };
 		203410B02823C93900AC7477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		203410B22823C93A00AC7477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		203410B52823C93A00AC7477 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		203410BC2823CB2900AC7477 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		203410BE2823CCC900AC7477 /* TodoDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				203410AE2823C93900AC7477 /* swiftTodoApp.swift */,
 				203410B02823C93900AC7477 /* ContentView.swift */,
+				203410BC2823CB2900AC7477 /* TodoModel.swift */,
+				203410BE2823CCC900AC7477 /* TodoDataStore.swift */,
+				201618762823F0C100250C45 /* TodoFormViewModel.swift */,
 				203410B22823C93A00AC7477 /* Assets.xcassets */,
 				203410B42823C93A00AC7477 /* Preview Content */,
+				201618782823F32C00250C45 /* TodoFormView.swift */,
+				2016187A2823F83900250C45 /* ModelType.swift */,
 			);
 			path = swiftTodo;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203410BD2823CB2900AC7477 /* TodoModel.swift in Sources */,
 				203410B12823C93900AC7477 /* ContentView.swift in Sources */,
+				201618792823F32C00250C45 /* TodoFormView.swift in Sources */,
 				203410AF2823C93900AC7477 /* swiftTodoApp.swift in Sources */,
+				2016187B2823F83900250C45 /* ModelType.swift in Sources */,
+				201618772823F0C100250C45 /* TodoFormViewModel.swift in Sources */,
+				203410BF2823CCC900AC7477 /* TodoDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
